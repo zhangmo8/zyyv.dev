@@ -20,15 +20,8 @@ useHead({
 
 const { data, status, refresh } = useFetch('/api/repos')
 
-watchEffect(() => {
-  // eslint-disable-next-line no-console
-  console.log(data.value?.data)
-})
-
 function getasd() {
   refresh()
-  // eslint-disable-next-line no-console
-  console.log('data.value?.data', data.value)
 }
 </script>
 

@@ -1,6 +1,6 @@
 [build]
 publish = ".output/public"
-command = "pnpm run build"
+command = "pnpm install && pnpm run build"
 
 [build.environment]
 NODE_VERSION = "20"
@@ -14,3 +14,7 @@ status = 200
 from = "/*"
 to = "/.netlify/functions/server"
 status = 200
+
+[functions]
+directory = "netlify/functions"
+node_bundler = "esbuild"

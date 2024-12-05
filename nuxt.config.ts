@@ -68,7 +68,7 @@ export default defineNuxtConfig({
       crawlLinks: false,
     },
     serveStatic: true,
-    preset: 'netlify',
+    preset: 'netlify_edge',
   },
 
   ssr: true,

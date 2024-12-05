@@ -8,6 +8,7 @@ import 'node:http';
 import 'node:https';
 import 'node:fs';
 import 'node:path';
+import 'node:url';
 import 'zod';
 import 'better-sqlite3';
 
@@ -1282,7 +1283,7 @@ const __nuxt_component_0$1 = defineComponent({
 });
 
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-B9UIHFT-.mjs')),
+  default: defineAsyncComponent(() => import('./default-BN61HU-b.mjs')),
   error: defineAsyncComponent(() => import('./error-D62__Pod.mjs'))
 };
 

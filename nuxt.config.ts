@@ -71,8 +71,6 @@ export default defineNuxtConfig({
     preset: 'netlify',
   },
 
-  ssr: true,
-
   future: {
     compatibilityVersion: 4,
   },

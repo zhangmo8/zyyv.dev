@@ -69,14 +69,6 @@ export default defineNuxtConfig({
       routes: ['/'],
     },
     preset: 'netlify',
-    serveStatic: true,
-    timing: false,
-    routeRules: {
-      '/**': { ssr: true },
-    },
-    experimental: {
-      asyncContext: true,
-    },
   },
 
   future: {

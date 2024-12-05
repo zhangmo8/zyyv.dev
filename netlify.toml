@@ -1,5 +1,5 @@
 [build]
-publish = "dist"
+publish = ".output/public"
 command = "pnpm run build"
 
 [build.environment]
@@ -12,11 +12,5 @@ status = 200
 
 [[redirects]]
 from = "/*"
-to = "/:splat"
-status = 200
-conditions = { Response-Code = ["404"] }
-
-[[redirects]]
-from = "/*"
-to = "/index.html"
+to = "/.netlify/functions/server"
 status = 200

@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "nuxt dev -o",
     "build": "nuxt build",
-    "preview": "nuxt preview",
+    "preview": "npx nuxi preview --port 5000",
     "lint": "eslint .",
     "postinstall": "nuxt prepare",
     "typecheck": "tsc --noEmit"
